@@ -12,6 +12,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                color:'#494949',
               }
             }
           }
@@ -36,7 +37,7 @@
       <!-- Icons -->
       <script src="https://kit.fontawesome.com/323411d8a6.js" crossorigin="anonymous"></script>
 </head>
-<body class="manrope-normal  border-2 border-red-600">
+<body class="manrope-normal  border-2 border-red-600 overflow-x-hidden">
     <!--Start of Header -->
     <header>
         <nav>
@@ -105,7 +106,7 @@
                     <p class="py-6">
                         These homes tend to come in simple shapes and might have stone bases, cupolas, rustic wood-plank siding, and gable or gambrel roofs.
                     </p>
-                    <button class="btn rounded-3xl w-full lg:w-2/12 font-bold border-2 border-[#ABEF5F] bg-[#c0e98c]">View Details  <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 bg-[#ABEF5F]"></i></button>
+                    <button class="btn rounded-3xl w-full lg:w-2/12 font-bold border-2 border-[#ABEF5F] bg-[#c0e98c] lg:mb-10">View Details  <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 bg-[#ABEF5F]"></i></button>
                   </div>
                 </div>
               </div>
@@ -114,7 +115,44 @@
     <!--End of Header -->
     <!--Start of main -->
     <main>
+        <!-- liveable place section -->
+         <section class="bg-stone-200 md:p-5 lg:p-5">
+            <div class="lg:flex w-[90%] mx-auto lg:container lg:mx-auto py-6 justify-evenly items-center gap-4">
+                <div class="lg:w-1/2 ">
+                    <img class="hidden lg:flex" src="./assets/Vector.png" alt="">
+                    <div class="text-center lg:text-left">
+                        <button class="rounded-3xl bg-white px-2 py-1 lg:ml-20 lg:mt-4"><i class="fa-solid fa-arrow-right "></i> About Us</button>
 
+                        <h3 class="text-[24px] lg:text-3xl font-bold lg:my-5">We design thoughtful,<br> liveable spaces</h3>
+                        <p class="text-[#494949]">With the right ideas to create a perfect space, make your Dream Home a reality with our simple yet elegant styles.</p>
+                    </div>
+                
+                    <div class="grid md:grid-cols-2 lg:grid-cols-1 md:gap-4">
+                        <div class="flex bg-white my-5 justify-around items-center rounded-lg md:p-6 lg:p-6">
+                            <div>
+                                <img src="./assets/commercial.png" alt="">
+                            </div>
+                            <div class="w-2/3">
+                                <h4>Commercial</h4>
+                                <p>Behance is the largest creative network for showcasing creative commercial building.</p>
+                            </div>                     
+                        </div>
+                        <div class="flex bg-white justify-around items-center rounded-lg lg:p-6"> 
+                            <div>
+                                <img src="./assets/residential.png" alt="">
+                            </div>           
+                           <div class="w-2/3">
+                                <h4>Residential</h4>
+                                <p class="text-[16px]">A residential contains separate residences where a person may live or regularly stay.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 lg:mt-5">
+                    <img src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+         </section>
     </main>
     <!--End of main -->
     <!--Start of footer -->
